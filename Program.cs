@@ -3,7 +3,20 @@
 namespace Cronometro {
     internal class  Program {
         public static void Main(string[] args) {
-            Menu();
+            MenuInicial();
+        }
+
+        static void MenuInicial() {
+            Console.WriteLine("Deseja iniciar o Cronometro");
+            Console.WriteLine("1 - Sim");
+            Console.WriteLine("2 - Não");
+            int op = int.Parse(Console.ReadLine());
+
+            if (op == 1) {
+                Menu();
+            }else {
+                System.Environment.Exit(0);
+            }
         }
 
         static void Menu() {
@@ -37,7 +50,7 @@ namespace Cronometro {
             Console.WriteLine("...2...");
             Thread.Sleep(1000);
             Console.WriteLine("...1...");
-            Thread.Sleep(2500);
+            Thread.Sleep(1500);
 
             Start(time);
             
