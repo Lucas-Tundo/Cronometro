@@ -12,3 +12,4 @@ E:\projetos C#\Cronometro\Cronometro\obj\Debug\net9.0\refint\Cronometro.dll
 E:\projetos C#\Cronometro\Cronometro\obj\Debug\net9.0\Cronometro.pdb
 E:\projetos C#\Cronometro\Cronometro\obj\Debug\net9.0\Cronometro.genruntimeconfig.cache
 E:\projetos C#\Cronometro\Cronometro\obj\Debug\net9.0\ref\Cronometro.dll
+E:\projetos C#\Cronometro\Cronometro\obj\Debug\net9.0\Cronometro.sourcelink.json

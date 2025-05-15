@@ -14,6 +14,17 @@ namespace Cronometro {
             Console.WriteLine("Quanto tempo deseja contar?");
 
             string data = Console.ReadLine().ToLower();
+            char type = char.Parse(data.Substring(data.Length - 1, 1));
+            int time = int.Parse(data.Substring(0, data.Length - 1));
+            int mult = 1;
+
+            if (type == 'm') 
+                mult = 60;
+            
+            if (time == 0)
+                System.Environment.Exit(0);
+
+            Start(time * mult);
 
         }
 
@@ -30,6 +41,7 @@ namespace Cronometro {
             Console.Clear();
             Console.WriteLine("Cronometro finalizado... Voltando para o menu");
             Thread.Sleep(2500);
+            Menu();
         }
     }
 }
