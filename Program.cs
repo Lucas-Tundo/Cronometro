@@ -10,7 +10,7 @@ namespace Cronometro {
             Console.Clear();
             Console.WriteLine("S - Segundo => 10s = 10 segundos");
             Console.WriteLine("M - Minuto => 1m = 1 minuto");
-            Console.WriteLine("0 - Sair");
+            Console.WriteLine("0s - sair");
             Console.WriteLine("Quanto tempo deseja contar?");
 
             string data = Console.ReadLine().ToLower();
@@ -32,11 +32,11 @@ namespace Cronometro {
             Console.Clear();
             Console.WriteLine("Começando...");  
             Thread.Sleep(1000);
-            Console.WriteLine("3...");
+            Console.WriteLine("...3...");
             Thread.Sleep(1000);
-            Console.WriteLine("2...");
+            Console.WriteLine("...2...");
             Thread.Sleep(1000);
-            Console.WriteLine("1...");
+            Console.WriteLine("...1...");
             Thread.Sleep(2500);
 
             Start(time);
