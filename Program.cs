@@ -24,8 +24,23 @@ namespace Cronometro {
             if (time == 0)
                 System.Environment.Exit(0);
 
-            Start(time * mult);
+            PreStart(time * mult);
 
+        }
+
+        static void PreStart(int time) {
+            Console.Clear();
+            Console.WriteLine("Começando...");  
+            Thread.Sleep(1000);
+            Console.WriteLine("3...");
+            Thread.Sleep(1000);
+            Console.WriteLine("2...");
+            Thread.Sleep(1000);
+            Console.WriteLine("1...");
+            Thread.Sleep(2500);
+
+            Start(time);
+            
         }
 
         static void Start(int time) {
