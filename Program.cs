@@ -8,7 +8,7 @@ namespace Cronometro {
 
         static void Menu() {
             Console.Clear();
-            Console.WriteLine("S - Segundo");
+            Console.WriteLine("S - Segundo => 10s = 10 segundos");
             Console.WriteLine("M - Minuto");
             Console.WriteLine("0 - Sair");
             Console.WriteLine("Quanto tempo deseja contar?");
